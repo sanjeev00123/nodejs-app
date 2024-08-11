@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update -y
-DD_API_KEY=bb98cff57bad3f798d5a62b2e37dece4 DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
+DD_API_KEY= DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
 sudo apt install docker.io -y
 snap install aws-cli --classic -y
 sudo docker login -u "username" -p "pass"
