@@ -40,17 +40,17 @@
 
 ### Step 6
 
-1. Run sudo visudo and add this line at the end of file jenkins ALL=(ALL) NOPASSWD: /usr/bin/terraform
+1. Run `sudo visudo` and add this line at the end of file `jenkins ALL=(ALL) NOPASSWD: /usr/bin/terraform`
 
 ### Step 7
 
 1. We are using jenkins in the localsystem so that we have to move all terraform files to jenkins workspace.
-2. jenkins workspace cd /var/lib/jenkins/workspaces/<your-pipeline-name>
+2. jenkins workspace `cd /var/lib/jenkins/workspaces/<your-pipeline-name>`
 3. Move the terraform files to this exect location.
 
 ### Steo 8
 
-1. Now Go to jenkins and click on build now.
+1. Now Go to jenkins and click on `build now`.
 2. Now see your pipeline overview.
 
 ## Note
