@@ -3,7 +3,8 @@
 ### Step 1
 
 1. Clone this repository local.
-  
+
+`git@github.com:sanjeev00123/nodejs-app.git`   
 
 ### Step 2
 
